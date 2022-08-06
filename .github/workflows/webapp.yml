@@ -3,6 +3,8 @@ name: WebApp
 on:
   release:
     types: [published]
+  workflow_dispatch:
+  
 
 env:
   BUILD_TYPE: MinSizeRel
